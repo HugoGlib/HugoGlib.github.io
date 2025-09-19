@@ -154,6 +154,7 @@ body {
 
 .achievement {
 	display: flex;
+	justify-content: stretch;
 	gap: 1.5em;
 	font-size: 1.1em;
 	max-width: 40em;
@@ -324,17 +325,20 @@ body {
 		padding: 0em 1.75em;
 	}
 	
+	.achievements__content {
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
 	.achievement {
 		flex-direction: column;
-		align-items: stretch;
-		max-width: none;
 	}
 	
 	.achievement__image {
 		min-width: none;
 		max-width: none;
-		min-height: none;
-		max-height: none;
+		min-height: 24em;
+		max-height: 24em;
 	}
 	
 	.achievement__text {
