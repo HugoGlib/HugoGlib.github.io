@@ -337,8 +337,8 @@ body {
 	.achievement__image {
 		min-width: none;
 		max-width: none;
-		min-height: 24em;
-		max-height: 24em;
+		min-height: 18em;
+		max-height: 18em;
 	}
 	
 	.achievement__text {
