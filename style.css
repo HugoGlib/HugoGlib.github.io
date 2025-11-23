@@ -223,19 +223,23 @@ body {
 	margin-bottom: 0.5em;
 }
 
-.achievements--highlights {
+.achievements--experience {
 	background-color: var(--background-primary);
+}
+
+.achievements--highlights {
 	--accent-color: #e5c890;
 }
 
-/* .achievements--projects {
-	--accent-color: #a6d189;
-} */
+.achievements--projects {
+	background-color: var(--background-primary);
+	/* --accent-color: #a6d189; */
+}
 
 
 /* Contact */
 .contact {
-	background-color: var(--background-primary);
+	/* background-color: var(--background-primary); */
 	display: flex;
 	justify-content: center;
 	padding: 0 3em;
